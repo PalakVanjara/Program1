@@ -48,22 +48,33 @@ codeshare.io/tailwind
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 aa script ne powershell ma run as administrator tarike open karvanu ne pachi tema aa scipt paste karvani.
 
-aek navu folder banavanu taiwindcli nam nu ane aema terminal ma jaine tailwind in website mathi tailwind cli section mathi 1st command copy kari terminal ma paste kaso to navi 3 file banse.
+aek navu folder banavanu taiwindcli nam nu ane aema terminal ma jaine tailwind in website mathi tailwind cli section mathi 1st command copy kari terminal ma paste karo to navi 3 file banse.
 npm install tailwindcss @tailwindcss/cli (aa copy karvani ne terminal ma paste karvanu). aama 3 file aavse
 
 -pachi input.css file banavani ane aema aa paste karvanu :@import "tailwindcss";
 index.html ma aa link aapvani :<link rel="stylesheet" href="./output.css">
+aa scrpit json file ma lakho 
+
+"scripts": {
+    "start": "npx @tailwindcss/cli -i ./input.css -o ./output.css --watch"
+  }
+aa link official tailwind css ni website mathi levani che.
+
 pachi npm run start karvanu terminal ma
 -output.css file auto create thase.
 
 ----jo node moduls ke package-lock.json delete thay jay to aa command through aene pachi lavi skay.( npm i )
 
------aek navi repo banavani github ma aema readme.md nathi levani ane public rakvani .
+-----aek navi repo banavani github ma aema readme.md nathi levani ane public rakvani 
+
+git init karvanu . 
+pachi niche ni link terminal ma paste karvanu.
 pachi git remote add origin https://github.com/PalakVanjara/tailwind-cli.git aa link terminal ma paste karvani che niche na command sathe 
 
 have terminal ma aa comand lakhavna:
 git init
 git link(upar ni link)
+git commit -m "messge"
 ------------------------------------------------------------------------------------------------------------------------------------------------------------- 
 branch:(branch craete karva mate)
 
@@ -71,3 +82,29 @@ git branch
 git branch branch_name
 git branch 
 aa 3 command lakvathi branch create thay ane aa command terminal ma lakhavnu.
+
+--have development name ni branch banavani.
+git branch development (create development branch)
+git branch  (aa comand karta branch ni list dekhase)
+git checkout development ( aa command branch shift karva mate)
+
+---------------------------
+readme.md file aa folder ma add kari ne badha command and aena meanings lakhavna.
+pachi niche na command terminal ma lakhavana.
+git add .
+git commit -m "mesg"
+git push origin development(aa branch nu name )
+
+aa command lakhi ne pachi link aave aeni par click+click karvnau aetle github ma jashu tayre aek button aave green color nu button "compare&pull request" 
+aa ni par click karvanu 
+
+
+2 branch ne merege pull request mate:
+github ma javanu pull request par click karvanu .
+pachi compare &merge button par click karvanu.
+total 3 button green color na aavshe aena par click karvanu ane pachi purple karavnu.
+
+change repo name with .github.io repo na nam ni pachal lakhavanu
+pachi settings ma page ma jai ne deploy from branch select karavnu.
+pachi development select kari ne save karvanu.
+actions par javanu pachi pages build and development par click kari ne deply ma link aavse aena par click karta website dekhase.

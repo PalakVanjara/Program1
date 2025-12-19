@@ -99,7 +99,7 @@ git add .
 git commit -m "mesg"
 git push origin development(aa branch nu name )
 
-aa command lakhi ne pachi link aave aeni par click+click karvnau aetle github ma jashu tayre aek button aave green color nu button "compare&pull request" 
+aa command lakhi ne pachi link aave aeni par ctrlk+click karvnau aetle github ma jashu tayre aek button aave green color nu button "compare&pull request" 
 aa ni par click karvanu 
 
 

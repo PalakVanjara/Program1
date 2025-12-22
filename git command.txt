@@ -112,3 +112,5 @@ total 3 button green color na aavshe aena par click karvanu ane pachi purple kar
 pachi settings ma page ma jai ne deploy from branch select karavnu.
 pachi development select kari ne save karvanu.
 actions par javanu pachi pages build and development par click kari ne deploy ma link aavse aena par click karta website dekhase.
+
+-awwwards.com aa website ma animated website na layout malshe.
